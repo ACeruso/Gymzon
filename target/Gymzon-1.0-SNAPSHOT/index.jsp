@@ -39,8 +39,10 @@
             background-image: url('image/home.jpeg');
             background-size: cover;
             background-repeat: no-repeat;
-            opacity: 0.5;
-            padding: 190px 50px;
+            opacity: 0.4;
+            height: 920px;
+            width: auto;
+            padding: 0px;
         }
 
         .img h1{
