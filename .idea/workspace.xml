@@ -9,19 +9,18 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="61fd463d-9859-4542-a672-114f4cd430e7" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/Model/Abbigliamento.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Model/Ordine.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Model/Utente.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/c30973e4-8acc-4e74-8ea1-ce4aa99cff44.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/c30973e4-8acc-4e74-8ea1-ce4aa99cff44.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/index.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/Gymzon-1.0-SNAPSHOT/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/Gymzon-1.0-SNAPSHOT/index.jsp" afterDir="false" />
-    </list>
+    <list default="true" id="61fd463d-9859-4542-a672-114f4cd430e7" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -147,7 +146,7 @@
       <workItem from="1713278587947" duration="9000" />
       <workItem from="1713944805056" duration="4299000" />
       <workItem from="1714485653199" duration="956000" />
-      <workItem from="1714486842975" duration="389000" />
+      <workItem from="1714486842975" duration="719000" />
     </task>
     <servers />
   </component>
