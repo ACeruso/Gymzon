@@ -33,3 +33,8 @@ IDProdotto char(6),
 foreign key(IDCliente) references cliente(IDCLiente),
 foreign key(IDProdotto) references prodotto(IDProdotto)
 );
+
+CREATE TABLE admin(
+email char(50) PRIMARY KEY,
+password char(8) not null
+);

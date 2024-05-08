@@ -9,7 +9,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="61fd463d-9859-4542-a672-114f4cd430e7" name="Changes" comment="" />
+    <list default="true" id="61fd463d-9859-4542-a672-114f4cd430e7" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/gymzonDB.sql" beforeDir="false" afterPath="$PROJECT_DIR$/gymzonDB.sql" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -25,18 +27,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "Ceuto"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;Ceuto&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/ACeruso/Gymzon.git",
-    "accountId": "7b39fb20-f830-44b4-9fb8-0b3fbe4d8bdf"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/ACeruso/Gymzon.git&quot;,
+    &quot;accountId&quot;: &quot;7b39fb20-f830-44b4-9fb8-0b3fbe4d8bdf&quot;
   }
-}]]></component>
+}</component>
   <component name="LogFilters">
     <option name="FILTER_ERRORS" value="false" />
     <option name="FILTER_WARNINGS" value="false" />
@@ -147,6 +149,7 @@
       <workItem from="1713944805056" duration="4299000" />
       <workItem from="1714485653199" duration="956000" />
       <workItem from="1714486842975" duration="719000" />
+      <workItem from="1715163033479" duration="807000" />
     </task>
     <servers />
   </component>
