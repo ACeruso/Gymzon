@@ -1,0 +1,48 @@
+/* Stili CSS per la pagina */
+
+header {
+    background-color: #6a8047;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+nav {
+    background-color: #9cbd69;
+    padding: 10px 0;
+    text-align: center;
+}
+nav a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 20px;
+}
+nav a:hover {
+    background-color: #6a8047;
+}
+body {
+    font-family: Roboto, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: white;
+    color: white;
+    text-align-all: center;
+}
+
+.img {
+    background-image: url('/image/home.jpeg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    opacity: 0.4;
+    height: auto;
+    width: auto;
+}
+
+.img h1{
+    font-size: 3em;
+    margin-bottom: 20px;
+}
+
+.img p{
+    font-size: 1.5em;
+    margin-bottom: 20px;
+}
