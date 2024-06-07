@@ -1,12 +1,14 @@
 /* Stili CSS per la pagina */
 
 header {
+    font-family: Roboto, sans-serif;
     background-color: #6a8047;
     color: #fff;
     padding: 20px;
     text-align: center;
 }
 nav {
+    font-family: Roboto, sans-serif;
     background-color: #9cbd69;
     padding: 10px 0;
     text-align: center;
@@ -25,15 +27,15 @@ body {
     padding: 0;
     background-color: white;
     color: white;
-    text-align-all: center;
+    text-align: center;
+
 }
 
 .img {
-    background-image: url('/image/home.jpeg');
+    background-image: url('../image/home.jpeg');
     background-size: cover;
-    background-repeat: no-repeat;
     opacity: 0.4;
-    height: auto;
+    height: 1000px;
     width: auto;
 }
 

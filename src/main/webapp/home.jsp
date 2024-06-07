@@ -1,13 +1,12 @@
 <!DOCTYPE html>
-<html lang="it">
+<html lang="it-IT">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Gymzon - Il tuo negozio per la palestra</title>
     <link rel="stylesheet" href="css/home.css">
 </head>
 <header>
-    <h1>Gymzon</h1>
+    <h1 style="font-size:60px;">Gymzon</h1>
     <p>Il tuo negozio per la palestra</p>
 </header>
 <nav>
@@ -15,10 +14,12 @@
     <a href="#">Attrezzi</a>
     <a href="#">Alimenti</a>
     <a href="#">Abbigliamento</a>
+    <a href="Login.jsp">Login</a>
+    <a href="Register.jsp">Register</a>
 </nav>
 
 
-<body >
+<body>
     <div class="img">
         <div>
             <h1>Benvenuto su Gymzon</h1>
