@@ -12,7 +12,7 @@
         <p>Il tuo negozio per la palestra</p>
         <nav>
             <a href="home.jsp">Home</a>
-            <a href="#">Alimenti</a>
+            <a href="#">Prodotti</a>
             <a href="Login.jsp">Login</a>
             <a href="Register.jsp">Register</a>
         </nav>
