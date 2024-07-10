@@ -5,26 +5,31 @@
     <title>Gymzon - Il tuo negozio per la palestra</title>
     <link rel="stylesheet" href="css/home.css">
 </head>
-<header>
-    <h1 style="font-size:60px;">Gymzon</h1>
-    <p>Il tuo negozio per la palestra</p>
-</header>
-<nav>
-    <a href="home.jsp">Home</a>
-    <a href="#">Attrezzi</a>
-    <a href="#">Alimenti</a>
-    <a href="#">Abbigliamento</a>
-    <a href="Login.jsp">Login</a>
-    <a href="Register.jsp">Register</a>
-</nav>
 
+<div class="layout">
+    <header class="header">
+        <h1>Gymzon</h1>
+        <p>Il tuo negozio per la palestra</p>
+        <nav>
+            <a href="home.jsp">Home</a>
+            <a href="#">Alimenti</a>
+            <a href="Login.jsp">Login</a>
+            <a href="Register.jsp">Register</a>
+        </nav>
+    </header>
 
-<body>
     <div class="img">
-        <div>
-            <h1>Benvenuto su Gymzon</h1>
-            <p>Il tuo negozio sportivo di fiducia</p>
-        </div>
+        <h1>Benvenuto su Gymzon</h1>
+        <p>Il tuo negozio sportivo di fiducia</p>
     </div>
-</body>
+
+    <div class="footer">
+        <nav>
+            <a href="Sudinoi.jsp">Su di noi</a>
+            <a href="Contatti.jsp">Contatti</a>
+        </nav>
+    </div>
+
+</div>
+
 </html>

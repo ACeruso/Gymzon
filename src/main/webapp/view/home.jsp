@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <title>Gymzon - Il tuo negozio per la palestra</title>
-    <link rel="stylesheet" href="css/home.css">
+    <link rel="stylesheet" href="../css/home.css">
 </head>
 
 <div class="layout">

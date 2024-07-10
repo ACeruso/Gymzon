@@ -1,13 +1,13 @@
+create database gymzonDB;
+use gymzonDB;
+
 CREATE TABLE prodotto (
 IDProdotto CHAR(6) PRIMARY KEY,
 nome char(20) not null,
 descrizione char(100) not null,
 prezzo NUMERIC(9) not null,
 quantita INTEGER DEFAULT 0,
-sconto INTEGER DEFAULT 0, 
-taglia char(4),
-tipo char(20),
-scadenza DATE
+sconto INTEGER DEFAULT 0
 );
 
 CREATE TABLE cliente(

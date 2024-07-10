@@ -1,14 +1,36 @@
 /* Stili CSS per la pagina */
+.layout {
+    width: 100%;
 
-header {
-    font-family: Roboto, sans-serif;
+    display: grid;
+    grid-template-areas:
+        "header"
+        "img"
+        "footer";
+    grid-template-rows: auto 95% auto ;
+    grid-template-columns: auto;
+    grid-auto-flow: row dense;
+}
+
+.header {
+    grid-area: header;
     background-color: #6a8047;
-    color: #fff;
     padding: 20px;
     text-align: center;
 }
+
+.header h1{
+    font-size:60px;
+    color: white;
+
+}
+.header p{
+    font-size:30px;
+    color: white;
+}
+
+
 nav {
-    font-family: Roboto, sans-serif;
     background-color: #9cbd69;
     padding: 10px 0;
     text-align: center;
@@ -21,30 +43,29 @@ nav a {
 nav a:hover {
     background-color: #6a8047;
 }
-body {
-    font-family: Roboto, sans-serif;
-    margin: 0;
-    padding: 0;
-    background-color: white;
-    color: white;
-    text-align: center;
 
-}
-
-.img {
+.img{
+    grid-area: img;
     background-image: url('../image/home.jpeg');
     background-size: cover;
+    background-attachment: fixed;
     opacity: 0.4;
-    height: 1000px;
-    width: auto;
+    text-align: center;
 }
 
 .img h1{
-    font-size: 3em;
-    margin-bottom: 20px;
+    font-size: 50px;
+    color: white;
 }
 
 .img p{
-    font-size: 1.5em;
-    margin-bottom: 20px;
+    font-size: 30px;
+    color: white;
+}
+
+.footer{
+    grid-area: footer;
+    background-color: #6a8047;
+    padding: 20px;
+    text-align: center;
 }

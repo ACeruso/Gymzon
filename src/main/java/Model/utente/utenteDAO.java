@@ -6,12 +6,12 @@ public class utenteDAO {
     public String getUserRuolo(String email,String password) {
         String ruolo = null;
 
-       // SELECT ruolo FROM utente WHERE email = ?
+       //SELECT ruolo FROM utente WHERE email = ?
 
-       //  ruolo = result.getString("ruolo");
+        //ruolo = result.getString("ruolo");
 
 
-        if ("admin".equalsIgnoreCase(email) && "admin".equalsIgnoreCase(password)) {
+        if ("admin".equalsIgnoreCase(email) && "admin".equals(password)) {
             ruolo = "Admin";
         } else {
             ruolo = "Utente";
