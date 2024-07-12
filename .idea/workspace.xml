@@ -10,44 +10,95 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="61fd463d-9859-4542-a672-114f4cd430e7" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/Controller/Servlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Model/ConPool.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Model/admin/Admin.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Model/admin/adminDAO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Model/carrello/Carrello.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Model/ordine/Ordine.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Model/ordine/ordineDAO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Model/prodotto/Prodotto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Model/prodotto/prodottoDAO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Model/utente/Utente.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Model/utente/utenteDAO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/error.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/view/Contatti.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/view/Login.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/view/Register.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/view/Sudinoi.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/view/home.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/GymZon.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Controller/LoginServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Controller/RegistrazioneServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/css/register.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/view/jsp/admin/admin.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/view/jsp/admin/gestioneOrdini.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/view/jsp/admin/gestioneProdotti.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/view/jsp/admin/gestioneUtenti.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/view/jsp/ordini/carrello.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/view/jsp/ordini/checkout.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/view/jsp/ordini/dettagliOrdine.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/view/jsp/ordini/visuallizaStoricoOrdini.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/view/jsp/prodotti/aggiungiProdotto.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/view/jsp/prodotti/dettagliProdotti.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/view/jsp/prodotti/listaProdotti.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/view/jsp/prodotti/modificaProdotto.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/view/jsp/prodotti/rimuoviProdotto.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/view/jsp/user/listaOrdini.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/view/jsp/user/profile.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/view/jsp/user/register.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/view/jsp/user/user.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/Gymzon-1.0-SNAPSHOT/WEB-INF/classes/Controller/LoginServlet.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/Gymzon-1.0-SNAPSHOT/WEB-INF/classes/Controller/RegistrazioneServlet.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/Gymzon-1.0-SNAPSHOT/WEB-INF/classes/Model/ConPool.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/Gymzon-1.0-SNAPSHOT/WEB-INF/classes/Model/admin/adminDAO.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/Gymzon-1.0-SNAPSHOT/WEB-INF/classes/Model/carrello/Carrello.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/Gymzon-1.0-SNAPSHOT/WEB-INF/classes/Model/ordine/Ordine.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/Gymzon-1.0-SNAPSHOT/WEB-INF/classes/Model/ordine/ordineDAO.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/Gymzon-1.0-SNAPSHOT/WEB-INF/classes/Model/prodotto/Prodotto.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/Gymzon-1.0-SNAPSHOT/WEB-INF/classes/Model/prodotto/prodottoDAO.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/Gymzon-1.0-SNAPSHOT/WEB-INF/classes/Model/utente/Utente.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/Gymzon-1.0-SNAPSHOT/WEB-INF/classes/Model/utente/utenteDAO.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/Gymzon-1.0-SNAPSHOT/WEB-INF/lib/tomcat-jdbc-11.0.0-M9.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/Gymzon-1.0-SNAPSHOT/WEB-INF/lib/tomcat-juli-11.0.0-M9.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/Gymzon-1.0-SNAPSHOT/css/register.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/Gymzon-1.0-SNAPSHOT/error.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/Gymzon-1.0-SNAPSHOT/view/Contatti.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/Gymzon-1.0-SNAPSHOT/view/Login.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/Gymzon-1.0-SNAPSHOT/view/Sudinoi.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/Gymzon-1.0-SNAPSHOT/view/home.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/Gymzon-1.0-SNAPSHOT/view/jsp/admin/gestioneOrdini.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/Gymzon-1.0-SNAPSHOT/view/jsp/admin/gestioneProdotti.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/Gymzon-1.0-SNAPSHOT/view/jsp/admin/gestioneUtenti.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/Gymzon-1.0-SNAPSHOT/view/jsp/ordini/carrello.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/Gymzon-1.0-SNAPSHOT/view/jsp/ordini/checkout.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/Gymzon-1.0-SNAPSHOT/view/jsp/ordini/dettagliOrdine.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/Gymzon-1.0-SNAPSHOT/view/jsp/ordini/visuallizaStoricoOrdini.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/Gymzon-1.0-SNAPSHOT/view/jsp/prodotti/aggiungiProdotto.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/Gymzon-1.0-SNAPSHOT/view/jsp/prodotti/dettagliProdotti.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/Gymzon-1.0-SNAPSHOT/view/jsp/prodotti/listaProdotti.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/Gymzon-1.0-SNAPSHOT/view/jsp/prodotti/modificaProdotto.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/Gymzon-1.0-SNAPSHOT/view/jsp/prodotti/rimuoviProdotto.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/Gymzon-1.0-SNAPSHOT/view/jsp/register.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/Gymzon-1.0-SNAPSHOT/view/jsp/user/profile.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/Controller/LoginServlet.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/Controller/RegistrazioneServlet.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/Model/ConPool.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/Model/admin/Admin.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/Model/admin/adminDAO.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/Model/carrello/Carrello.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/Model/ordine/Ordine.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/Model/ordine/ordineDAO.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/Model/prodotto/Prodotto.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/Model/prodotto/prodottoDAO.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/Model/utente/Utente.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/Model/utente/utenteDAO.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/820c68f9-03ff-4086-b17c-10d8ebe51370.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/c30973e4-8acc-4e74-8ea1-ce4aa99cff44.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/c30973e4-8acc-4e74-8ea1-ce4aa99cff44/storage_v2/_src_/schema/gymzon.Pqiftg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/c30973e4-8acc-4e74-8ea1-ce4aa99cff44/storage_v2/_src_/schema/information_schema.FNRwLQ.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/c30973e4-8acc-4e74-8ea1-ce4aa99cff44/storage_v2/_src_/schema/mysql.osA4Bg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/c30973e4-8acc-4e74-8ea1-ce4aa99cff44/storage_v2/_src_/schema/performance_schema.kIw0nw.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/c30973e4-8acc-4e74-8ea1-ce4aa99cff44/storage_v2/_src_/schema/sys.zb4BAA.meta" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gymzonDB.sql" beforeDir="false" afterPath="$PROJECT_DIR$/gymzonDB.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Model/Abbigliamento.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Model/Admin.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Model/Alimento.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Model/Attrezzo.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Model/Cart.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Model/Ordine.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Model/Prodotto.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Model/Utente.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/Contatti.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/Login.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/Register.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/Sudinoi.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/css/home.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/css/home.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/home.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/Gymzon-1.0-SNAPSHOT/css/home.css" beforeDir="false" afterPath="$PROJECT_DIR$/target/Gymzon-1.0-SNAPSHOT/css/home.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/Gymzon-1.0-SNAPSHOT/home.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/Gymzon-1.0-SNAPSHOT/home.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Controller/Servlet.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Model/admin/adminDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Model/admin/adminDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Model/utente/utenteDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Model/utente/utenteDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/view/Register.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/Gymzon-1.0-SNAPSHOT/view/Register.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/view/home.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/view/home.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/Gymzon-1.0-SNAPSHOT/META-INF/MANIFEST.MF" beforeDir="false" afterPath="$PROJECT_DIR$/target/Gymzon-1.0-SNAPSHOT/META-INF/MANIFEST.MF" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Model/Abbigliamento.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Model/Admin.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/Gymzon-1.0-SNAPSHOT/WEB-INF/classes/Model/admin/Admin.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Model/Alimento.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Model/Attrezzo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Model/Cart.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Model/Ordine.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Model/Prodotto.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Model/Utente.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -103,33 +154,39 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "Tomcat Server.Tomcat 10.1.19.executor": "Run",
-    "git-widget-placeholder": "master",
-    "ignore.virus.scanning.warn.message": "true",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/cerus/Desktop/Gymzon",
-    "list.type.of.created.stylesheet": "CSS",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Project",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0",
-    "settings.editor.selected.configurable": "reference.settings.project.maven.archetype.catalogs",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;Tomcat Server.Tomcat 10.1.19.executor&quot;: &quot;Run&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/jakobs/Desktop/GymZon&quot;,
+    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settings.project.maven.archetype.catalogs&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
-  "keyToStringList": {
-    "DatabaseDriversLRU": [
-      "mysql"
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;mysql&quot;
     ]
   }
-}]]></component>
+}</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\jakobs\Desktop\GymZon\src\main\webapp\view\jsp\user" />
+      <recent name="C:\Users\jakobs\Desktop\GymZon\src\main\webapp\view\jsp" />
+    </key>
+  </component>
   <component name="RunDashboard">
     <option name="openRunningConfigInTab" value="true" />
   </component>
@@ -225,8 +282,7 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-jdk-9f38398b9061-18abd8497189-intellij.indexing.shared.core-IU-241.14494.240" />
-        <option value="bundled-js-predefined-1d06a55b98c1-74d2a5396914-JavaScript-IU-241.14494.240" />
+        <option value="jdk-21.0.2-openjdk-21.0.2-4caba194b151-4f524021" />
       </set>
     </attachedChunks>
   </component>
@@ -259,6 +315,10 @@
       <workItem from="1720629486139" duration="379000" />
       <workItem from="1720630038140" duration="1056000" />
       <workItem from="1720631123399" duration="2304000" />
+      <workItem from="1720792065130" duration="426000" />
+      <workItem from="1720792601522" duration="18000" />
+      <workItem from="1720792752100" duration="3851000" />
+      <workItem from="1720796949958" duration="392000" />
     </task>
     <servers />
   </component>

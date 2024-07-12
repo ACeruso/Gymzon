@@ -8,8 +8,28 @@ import java.sql.ResultSet;
 import java.sql.SQLException;
 
 public class adminDAO {
+    public Admin doLogin(String email, String password) {
+        Admin admin = null;
+        try (Connection con = ConPool.getConnection()) {
+            PreparedStatement ps = con.prepareStatement("SELECT * FROM Amministratore WHERE email=? AND pass=?");
+            ps.setString(1, email);
+            ps.setString(2, password);
+            ResultSet rs = ps.executeQuery();
+            if (rs.next()) {
+                admin = new Admin();
+                admin.setEmail(rs.getString("email"));
+                admin.setPassword(rs.getString("pass"));
+            }
+        } catch (SQLException e) {
+            throw new RuntimeException(e);
+        }
+        return admin;
+    }
+    /*
+}
     public static Admin doLogin(String email,String password) {
-        Admin admin = new Admin();
+
+       Admin admin = new Admin();
         try {
         Connection con = ConPool.getConnection();
         {
@@ -33,5 +53,5 @@ public class adminDAO {
     } catch (SQLException e) {
         throw new RuntimeException("Errore durante il login", e);
     }
-}
+*/
 }
