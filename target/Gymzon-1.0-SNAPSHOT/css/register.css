@@ -51,4 +51,11 @@ button {
 button:hover {
     background: #4cae4c;
 }
+p.error-message {
+    color: red;
+}
+
+p.success-message {
+    color: green;
+}
 

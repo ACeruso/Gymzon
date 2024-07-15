@@ -13,7 +13,7 @@
         <nav>
             <a href="home.jsp">Home</a>
             <a href="#">Prodotti</a>
-            <a href="Login.jsp">Login</a>
+            <a href="login.jsp">Login</a>
             <a href="register.jsp">Register</a>
         </nav>
     </header>
