@@ -14,17 +14,18 @@ public class Carrello {
 
 
 
-        public Carrello() {
+    public Carrello() {
             listaProdotti = new ArrayList<>();
         }
 
-        public List<Prodotto> getProdotti() {
+    public List<Prodotto> getProdotti() {
             return listaProdotti;
         }
 
-        public void aggiungiProdotto(Prodotto prodotto) {
+    public void aggiungiProdotto(Prodotto prodotto) {
             listaProdotti.add(prodotto);
         }
+
     public double calcolaTotale() {
         double totale = 0.0;
         for (Prodotto prodotto : listaProdotti) {
@@ -33,7 +34,7 @@ public class Carrello {
         return totale;
     }
 
-    public void rimuoviProdotto(int IDprodotto) {
+    public void rimuoviProdotto(String IDprodotto) {
         for (Prodotto prodotto : listaProdotti) {
             if (prodotto.getIDProdotto().equals(IDprodotto)) {
                 listaProdotti.remove(prodotto);
@@ -42,15 +43,12 @@ public class Carrello {
         }
     }
 
-
     public void svuotaCarrello() {
-            listaProdotti.clear();
-        }
-
-        public int numeroProdotti() {
-            return listaProdotti.size();
-        }
-
+        listaProdotti.clear();
     }
 
+    public int numeroProdotti() {
+        return listaProdotti.size();
+    }
 
+}

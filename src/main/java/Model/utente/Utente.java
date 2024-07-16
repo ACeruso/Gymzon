@@ -11,22 +11,22 @@ public class Utente {
     private int cap;
     private String paese;
     private String provincia;
-    private boolean isAdmin=false;//amministratore o utente
+    private boolean admin;//amministratore o utente
 
-    public Utente() {
-    }
-    public Utente(String IDCliente, String nome, String cognome, String email, String password, String cellulare, String via, int cap, String paese, String provincia) {
+    public Utente() {}
+
+    public Utente(String IDCliente, String nome, String cognome, String email, String password, boolean admin, String cellulare, String via, int cap, String paese, String provincia) {
         this.IDCliente = IDCliente;
         this.nome = nome;
         this.cognome = cognome;
         this.email = email;
         this.password = password;
+        this.admin = admin;
         this.cellulare = cellulare;
         this.via = via;
         this.cap = cap;
         this.paese = paese;
         this.provincia = provincia;
-
     }
 
 
@@ -110,13 +110,11 @@ public class Utente {
         this.provincia = provincia;
     }
 
-    public boolean isAdmin() {
-        return isAdmin;
+    public boolean getAdmin() {
+        return admin;
     }
 
-    public void setAdmin(boolean admin) {
-        isAdmin = admin;
-    }
+    public void setAdmin(boolean admin) { this.admin = admin;}
 
     @Override
     public String toString() {
@@ -131,7 +129,7 @@ public class Utente {
                 ", cap=" + cap +
                 ", paese='" + paese + '\'' +
                 ", provincia='" + provincia + '\'' +
-                ", isAdmin=" + isAdmin +
+                ", isAdmin=" + admin +
                 '}';
     }
 }

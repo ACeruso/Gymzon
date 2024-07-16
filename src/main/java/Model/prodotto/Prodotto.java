@@ -1,5 +1,8 @@
 package Model.prodotto;
 
+import org.json.JSONException;
+import org.json.JSONObject;
+
 import java.util.GregorianCalendar;
 
 public class Prodotto {
@@ -8,20 +11,21 @@ public class Prodotto {
     private String descrizione;
     private float prezzo;
     private int quantita;
-    private String sconto;
+    private int sconto;
+    private String foto;
 
 
     public Prodotto(){
 
     }
-    public Prodotto(String IDProdotto, String nome, String descrizione, float prezzo, int quantita, String sconto) {
+    public Prodotto(String IDProdotto, String nome, String descrizione, float prezzo, int quantita, int sconto, String foto) {
         this.IDProdotto = IDProdotto;
         this.nome = nome;
         this.descrizione = descrizione;
         this.prezzo = prezzo;
         this.quantita = quantita;
         this.sconto = sconto;
-
+        this.foto = foto;
 
 
     }
@@ -66,14 +70,21 @@ public class Prodotto {
         this.quantita = quantita;
     }
 
-    public String getSconto() {
+    public int getSconto() {
         return sconto;
     }
 
-    public void setSconto(String sconto) {
+    public void setSconto(int sconto) {
         this.sconto = sconto;
     }
 
+    public String getFoto() {
+        return foto;
+    }
+
+    public void setFoto(String foto) {
+        this.foto = foto;
+    }
 
     @Override
     public String toString() {
@@ -85,5 +96,17 @@ public class Prodotto {
                 ", quantita=" + quantita +
                 ", sconto='" + sconto + '\'' +
                 '}';
+    }
+
+    public JSONObject toJson() throws JSONException {
+        JSONObject json = new JSONObject();
+        json.put("IDProdotto", this.IDProdotto);
+        json.put("nome", this.nome);
+        json.put("prezzo", this.prezzo);
+        json.put("descrizione", this.descrizione);
+        json.put("foto", this.foto);
+        json.put("quantita", this.quantita);
+        json.put("sconto", this.sconto);
+        return json;
     }
 }

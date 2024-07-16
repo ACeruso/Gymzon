@@ -10,44 +10,61 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="61fd463d-9859-4542-a672-114f4cd430e7" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/Controller/Servlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Model/ConPool.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Model/admin/Admin.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Model/admin/adminDAO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Model/carrello/Carrello.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Model/ordine/Ordine.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Model/ordine/ordineDAO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Model/prodotto/Prodotto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Model/prodotto/prodottoDAO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Model/utente/Utente.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Model/utente/utenteDAO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/error.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/view/Contatti.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/view/Login.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/view/Register.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/view/Sudinoi.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/view/home.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Controller/AdminController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Controller/Alert.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Controller/CommonValidator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Controller/Condition.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Controller/Controller.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Controller/CrmServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Controller/ErrorHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Controller/FileServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Controller/FindProdottoByCodice.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Controller/FormMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Controller/InvalidRequestException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Controller/Operator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Controller/PagamentoServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Controller/ProdottoCarrelloServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Controller/ProdottoServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Controller/RequestValidator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Controller/SearchProdotto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Controller/ServletFooter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Controller/ServletProducts.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Controller/UtenteFormMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Controller/UtenteServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Controller/UtenteSession.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Controller/UtenteValidator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Model/Manager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Model/ResultSetExtractor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Model/SqlDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Model/TableQuery.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Model/carrello/ElementoCarrello.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Model/ordine/OrdineExtractor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Model/ordine/SqlOrdineDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Model/prodotto/ProdottoExtractor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Model/prodotto/SqlProdottoDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Model/utente/SqlUtenteDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Model/utente/UtenteExtractor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Model/utente/UtenteQuery.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/820c68f9-03ff-4086-b17c-10d8ebe51370.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/820c68f9-03ff-4086-b17c-10d8ebe51370.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/c30973e4-8acc-4e74-8ea1-ce4aa99cff44.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/c30973e4-8acc-4e74-8ea1-ce4aa99cff44/storage_v2/_src_/schema/gymzon.Pqiftg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/c30973e4-8acc-4e74-8ea1-ce4aa99cff44/storage_v2/_src_/schema/information_schema.FNRwLQ.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/c30973e4-8acc-4e74-8ea1-ce4aa99cff44/storage_v2/_src_/schema/mysql.osA4Bg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/c30973e4-8acc-4e74-8ea1-ce4aa99cff44/storage_v2/_src_/schema/performance_schema.kIw0nw.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/c30973e4-8acc-4e74-8ea1-ce4aa99cff44/storage_v2/_src_/schema/sys.zb4BAA.meta" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/gymzonDB.sql" beforeDir="false" afterPath="$PROJECT_DIR$/gymzonDB.sql" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Model/Abbigliamento.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Model/Admin.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Model/Alimento.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Model/Attrezzo.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Model/Cart.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Model/Ordine.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Model/Prodotto.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Model/Utente.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/Contatti.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/Login.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/Register.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/Sudinoi.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/css/home.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/css/home.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/home.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/Gymzon-1.0-SNAPSHOT/css/home.css" beforeDir="false" afterPath="$PROJECT_DIR$/target/Gymzon-1.0-SNAPSHOT/css/home.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/Gymzon-1.0-SNAPSHOT/home.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/Gymzon-1.0-SNAPSHOT/home.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Controller/Servlet.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Model/ConPool.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Model/ConPool.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Model/carrello/Carrello.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Model/carrello/Carrello.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Model/ordine/Ordine.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Model/ordine/Ordine.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Model/ordine/ordineDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Model/ordine/OrdineDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Model/prodotto/Prodotto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Model/prodotto/Prodotto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Model/prodotto/prodottoDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Model/prodotto/ProdottoDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Model/utente/Utente.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Model/utente/Utente.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Model/utente/utenteDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Model/utente/UtenteDAO.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,9 +74,11 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="CSS File" />
         <option value="Jsp File" />
+        <option value="AnnotationType" />
+        <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -107,6 +126,7 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "Tomcat Server.Tomcat 10.1.19.executor": "Run",
     "git-widget-placeholder": "master",
     "ignore.virus.scanning.warn.message": "true",
@@ -121,7 +141,7 @@
     "project.structure.last.edited": "Project",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.0",
-    "settings.editor.selected.configurable": "reference.settings.project.maven.archetype.catalogs",
+    "settings.editor.selected.configurable": "advanced.settings",
     "vue.rearranger.settings.migration": "true"
   },
   "keyToStringList": {
@@ -130,6 +150,11 @@
     ]
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="Controller" />
+    </key>
+  </component>
   <component name="RunDashboard">
     <option name="openRunningConfigInTab" value="true" />
   </component>
@@ -231,6 +256,9 @@
     </attachedChunks>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SvnConfiguration">
+    <configuration>C:\Users\cerus\AppData\Roaming\Subversion</configuration>
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="61fd463d-9859-4542-a672-114f4cd430e7" name="Changes" comment="" />
@@ -259,6 +287,17 @@
       <workItem from="1720629486139" duration="379000" />
       <workItem from="1720630038140" duration="1056000" />
       <workItem from="1720631123399" duration="2304000" />
+      <workItem from="1720780954776" duration="227000" />
+      <workItem from="1720781192517" duration="327000" />
+      <workItem from="1720781526790" duration="25000" />
+      <workItem from="1720781557135" duration="197000" />
+      <workItem from="1720781762314" duration="102000" />
+      <workItem from="1720781887039" duration="4267000" />
+      <workItem from="1720810418772" duration="51000" />
+      <workItem from="1721053360745" duration="5915000" />
+      <workItem from="1721061046485" duration="2809000" />
+      <workItem from="1721125463104" duration="6472000" />
+      <workItem from="1721138649985" duration="3896000" />
     </task>
     <servers />
   </component>
@@ -270,10 +309,27 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="HEAD" />
+                        <option value="master" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
       </map>
     </option>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>

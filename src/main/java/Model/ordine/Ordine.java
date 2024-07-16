@@ -1,31 +1,33 @@
 package Model.ordine;
 
+import Model.carrello.Carrello;
 import Model.prodotto.Prodotto;
-import Model.utente.Utente;
 
+import java.sql.Date;
+import java.time.LocalDate;
 import java.util.ArrayList;
-import java.util.GregorianCalendar;
 import java.util.List;
 
 public class Ordine {
     private String IDOrdine;
-   private String stato;
-   private GregorianCalendar data;
-   private int nProdotti;
-   private String IDUtente;
-   private List<Prodotto> listaProdotti;
+    private String stato;
+    private LocalDate data;
+    private int nProdotti;
+    private String IDUtente;
+    private List<Prodotto> listaProdotti;
+    private Carrello carrello;
+    private float total;
+
     public Ordine(){
-    listaProdotti=new ArrayList<>();
-
+        listaProdotti=new ArrayList<>();
     }
-
 
     public String getIDOrdine() {
         return IDOrdine;
     }
 
-    public void setIDOrdine(String IDOrdine) {
-        this.IDOrdine = IDOrdine;
+    public void setIDOrdine(int IDOrdine) {
+        this.IDOrdine =""+IDOrdine;
     }
 
     public String getStato() {
@@ -36,11 +38,11 @@ public class Ordine {
         this.stato = stato;
     }
 
-    public GregorianCalendar getData() {
+    public LocalDate getData() {
         return data;
     }
 
-    public void setData(GregorianCalendar data) {
+    public void setData(LocalDate data) {
         this.data = data;
     }
 
@@ -68,7 +70,22 @@ public class Ordine {
         this.listaProdotti = listaProdotti;
     }
 
+    public void setIDOrdine(String IDOrdine) {
+        this.IDOrdine = IDOrdine;
+    }
 
+    public Carrello getCarrello() {
+        return carrello;
+    }
 
+    public void setCarrello(Carrello carrello) {
+        this.carrello = carrello;
+    }
 
+    public float getTotal() {
+        for (Prodotto prodotto : listaProdotti) {
+            total += prodotto.getPrezzo();
+        }
+        return total;
+    }
 }
