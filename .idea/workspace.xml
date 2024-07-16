@@ -10,61 +10,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="61fd463d-9859-4542-a672-114f4cd430e7" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Controller/AdminController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Controller/Alert.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Controller/CommonValidator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Controller/Condition.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Controller/Controller.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Controller/CrmServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Controller/ErrorHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Controller/FileServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Controller/FindProdottoByCodice.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Controller/FormMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Controller/InvalidRequestException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Controller/Operator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Controller/PagamentoServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Controller/ProdottoCarrelloServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Controller/ProdottoServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Controller/RequestValidator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Controller/SearchProdotto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Controller/ServletFooter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Controller/ServletProducts.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Controller/UtenteFormMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Controller/UtenteServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Controller/UtenteSession.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Controller/UtenteValidator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Model/Manager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Model/ResultSetExtractor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Model/SqlDAO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Model/TableQuery.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Model/carrello/ElementoCarrello.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Model/ordine/OrdineExtractor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Model/ordine/SqlOrdineDAO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Model/prodotto/ProdottoExtractor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Model/prodotto/SqlProdottoDAO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Model/utente/SqlUtenteDAO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Model/utente/UtenteExtractor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Model/utente/UtenteQuery.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/dataSources/820c68f9-03ff-4086-b17c-10d8ebe51370.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/820c68f9-03ff-4086-b17c-10d8ebe51370.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/c30973e4-8acc-4e74-8ea1-ce4aa99cff44.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/c30973e4-8acc-4e74-8ea1-ce4aa99cff44/storage_v2/_src_/schema/gymzon.Pqiftg.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/c30973e4-8acc-4e74-8ea1-ce4aa99cff44/storage_v2/_src_/schema/information_schema.FNRwLQ.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/c30973e4-8acc-4e74-8ea1-ce4aa99cff44/storage_v2/_src_/schema/mysql.osA4Bg.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/c30973e4-8acc-4e74-8ea1-ce4aa99cff44/storage_v2/_src_/schema/performance_schema.kIw0nw.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/c30973e4-8acc-4e74-8ea1-ce4aa99cff44/storage_v2/_src_/schema/sys.zb4BAA.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gymzonDB.sql" beforeDir="false" afterPath="$PROJECT_DIR$/gymzonDB.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Controller/Servlet.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Model/ConPool.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Model/ConPool.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Model/carrello/Carrello.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Model/carrello/Carrello.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Model/ordine/Ordine.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Model/ordine/Ordine.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Model/ordine/ordineDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Model/ordine/OrdineDAO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Model/prodotto/Prodotto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Model/prodotto/Prodotto.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Model/prodotto/prodottoDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Model/prodotto/ProdottoDAO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Model/utente/Utente.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Model/utente/Utente.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Model/utente/utenteDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Model/utente/UtenteDAO.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -122,34 +68,34 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "Tomcat Server.Tomcat 10.1.19.executor": "Run",
-    "git-widget-placeholder": "master",
-    "ignore.virus.scanning.warn.message": "true",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/cerus/Desktop/Gymzon",
-    "list.type.of.created.stylesheet": "CSS",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Project",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0",
-    "settings.editor.selected.configurable": "advanced.settings",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;Tomcat Server.Tomcat 10.1.19.executor&quot;: &quot;Run&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/cerus/Desktop/Gymzon&quot;,
+    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;advanced.settings&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
-  "keyToStringList": {
-    "DatabaseDriversLRU": [
-      "mysql"
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;mysql&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="Controller" />
@@ -298,6 +244,7 @@
       <workItem from="1721061046485" duration="2809000" />
       <workItem from="1721125463104" duration="6472000" />
       <workItem from="1721138649985" duration="3896000" />
+      <workItem from="1721144035646" duration="39000" />
     </task>
     <servers />
   </component>
